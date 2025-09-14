@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Atención Médica para Adultos Mayores
 
-## Getting Started
+Aplicación web moderna y accesible diseñada para facilitar la atención médica y el bienestar de los adultos mayores. Desarrollada con Next.js, HeroUI y Tailwind CSS, esta aplicación ofrece una interfaz intuitiva y funcional.
 
-First, run the development server:
+🚀 Enlace de la aplicación
 
-```bash
+Puedes acceder a la aplicación en el siguiente enlace:
+
+👉 https://7gfd5q-5173.csb.app
+
+🛠️ Tecnologías utilizadas
+
+Next.js 13: Framework React para aplicaciones web modernas.
+
+HeroUI: Biblioteca de componentes UI accesibles y personalizables.
+
+Tailwind CSS: Framework de utilidades CSS para un diseño eficiente.
+
+TypeScript: Lenguaje de programación con tipado estático para mayor robustez.
+
+Framer Motion: Biblioteca para animaciones fluidas y atractivas.
+
+React Router DOM: Sistema de enrutamiento para aplicaciones React.
+
+📦 Instalación
+
+Para ejecutar este proyecto localmente, sigue estos pasos:
+
+Clona el repositorio:
+
+git clone https://github.com/NQDESTROYER/atencion-medica-adultos-mayores.git
+cd atencion-medica-adultos-mayores
+
+
+Instala las dependencias:
+
+npm install
+
+
+Ejecuta el servidor de desarrollo:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Abre tu navegador y visita http://localhost:3000
+ para ver la aplicación en funcionamiento.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📄 Estructura del proyecto
+atencion-medica-adultos-mayores/
+├── public/               # Archivos estáticos
+├── src/
+│   ├── app/              # Estructura de la aplicación (App Router)
+│   ├── components/       # Componentes reutilizables
+│   ├── layouts/          # Diseño de la aplicación
+│   └── pages/            # Páginas de la aplicación
+├── .gitignore            # Archivos y carpetas a ignorar por Git
+├── next.config.ts        # Configuración de Next.js
+├── package.json          # Dependencias y scripts del proyecto
+└── tailwind.config.ts    # Configuración de Tailwind CSS
 
-## Learn More
+🧪 Desarrollo
 
-To learn more about Next.js, take a look at the following resources:
+Modo de desarrollo: npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Compilación para producción: npm run build
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Ejecución en producción: npm start
